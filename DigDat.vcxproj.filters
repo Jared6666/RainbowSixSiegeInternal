@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{eaee225e-7ce2-4c32-8e59-122fe6da8ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{d70f7562-5358-4f49-8bcc-659f2fe587af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\game">
+      <UniqueIdentifier>{d92269a0-977d-4586-b90f-03f7fb51e879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\features">
+      <UniqueIdentifier>{40a09c72-e2b7-4a44-8406-b3889cbe96ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\memory">
+      <UniqueIdentifier>{60482fde-1fea-4d07-b84d-135ce1d66d7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\game\game.hpp">
+      <Filter>headers\game</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\features\features.hpp">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\globals.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\memory\memory.hpp">
+      <Filter>headers\memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
